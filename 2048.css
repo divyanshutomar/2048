@@ -1,0 +1,59 @@
+header>div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 520px;
+    font-size: 200%;
+    box-sizing: border-box;
+    padding: 1% 0;
+}
+
+header>div>div{
+    background-color: #FDD922;
+    box-sizing: border-box;
+    padding: 2%;
+    border-radius: 15px;
+
+
+}
+header>div>div:last-child{
+    border-radius: 50%;
+    cursor:pointer;
+    user-select: none;
+}
+#gamebox{
+    background-color:#BBADA0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 520px;
+    width: 520px;
+    padding: 1%;
+    position: absolute;
+    top: 4px;
+    border-radius: 10px;
+    border: 7px solid;
+}
+
+#gamebox>div{
+    height: 120px;
+    width: 120px;
+    background-color: #CDC0B4;
+    margin: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 400%;
+    text-align: center;
+    padding-top: 4%;
+}
+
+main{
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+}
+body{
+    background: url('level_background_for_a_mobile_game__by_bvigec-d5vi8b0.jpg');
+    background-size: cover;
+}
