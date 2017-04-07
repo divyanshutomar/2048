@@ -16,7 +16,7 @@
     "javascript"
   ],
   "gh-pages-deploy": {
-    "staticpath": "."
+    "staticpath": "src"
   },
   "author": "Divyanshu Tomar",
   "license": "ISC",
