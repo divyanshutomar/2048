@@ -1,0 +1,30 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "2048 Game for the web",
+  "main": "2048.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyanshutomar/2048.git"
+  },
+  "keywords": [
+    "game",
+    "2048",
+    "javascript"
+  ],
+  "gh-pages-deploy": {
+    "staticpath": "."
+  },
+  "author": "Divyanshu Tomar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyanshutomar/2048/issues"
+  },
+  "homepage": "https://github.com/divyanshutomar/2048#readme",
+  "devDependencies": {
+    "gh-pages-deploy": "^0.4.2"
+  }
+}
